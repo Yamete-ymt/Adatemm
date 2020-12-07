@@ -1,15 +1,21 @@
-
-/* =================================== */
-/*	Basic Style 
-/* =================================== */
 @font-face {
   font-family: 'Calrendon regular';
   src: url("../fonts/Clarendon_Regular.ttf");
 }
 
+@font-face {
+  font-family: 'Calrendon bold';
+  src: url("../fonts/Clarendon-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  src: url("../fonts/Poppins-SemiBold.ttf");
+}
+
 body {
     background-color: #fff;
-    font-family: 'Clarendon_Regular', sans-serif;
+    font-family: ;
     line-height: 21px;
 	  font-size: 13px;
     color: #6a737b;
@@ -51,7 +57,7 @@ a:focus, a:hover {
 h1, h2, h3,
 h4, h5, h6 {
 	font-weight: normal;
-  font-family: 'Clarendon_Regular';
+  font-family: 'Poppins-SemiBold';
 	margin: 0;
 }
 
